@@ -4,12 +4,20 @@ import styled from 'styled-components';
 const Box = styled.div`
   height: 250px;
   width: 400px;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   margin: 100px 0;
-  box-shadow: ${props =>
-    `${props.x}px ${props.y}px ${props.b}px ${props.s}px #333`};
 `;
 
-const BoxShadow = props => <Box {...props} />;
+const BoxShadow = ({ inset, x, y, b, s, c }) => (
+  <Box
+    style={{
+      boxShadow: `
+        ${inset ? 'inset' : ''}
+        ${x}px ${y}px ${b}px ${s}px
+        rgba(${c.r}, ${c.g}, ${c.b}, ${c.a})
+      `,
+    }}
+  />
+);
 
 export default BoxShadow;
