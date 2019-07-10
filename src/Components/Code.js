@@ -14,7 +14,7 @@ const CodeWrapper = styled.div`
 const Code = ({ inset, x, y, b, s, c }) => (
   <CodeWrapper>
     <code>
-      box-shadow: {inset ? 'inset' : ''}
+      box-shadow: {inset ? 'inset ' : ''}
       {x}px {y}px {b}px {s}px rgba({c.r}, {c.g}, {c.b}, {c.a});
     </code>
   </CodeWrapper>
