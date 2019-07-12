@@ -3,7 +3,6 @@
 
 ### Demo ▶️
 ![Box Shadow Generator](/assets/demo.gif)
-[Live Demo](http://box-shadow-generator.surge.sh/) 👈
 
 ### Install ⚙️
 
