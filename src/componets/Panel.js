@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SidePanel = styled.div`
   border-radius: 4px;
-  background-color: #ededed;
+  background-color: #e5e5e5;
   padding: 40px 20px;
 `;
 

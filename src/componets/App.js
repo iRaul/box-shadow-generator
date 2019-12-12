@@ -92,8 +92,8 @@ const App = () => {
 
           <RangeInput
             name="Spread"
-            min={0}
-            max={60}
+            min={-50}
+            max={50}
             value={value.s}
             onInput={handleInput('s')}
           />

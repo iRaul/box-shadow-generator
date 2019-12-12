@@ -7,7 +7,7 @@ const CodeWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ededed;
+  background-color: #e5e5e5;
   padding: 0 15px;
   border-radius: 4px;
 `;
