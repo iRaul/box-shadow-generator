@@ -6,15 +6,17 @@ const InputWrapper = styled.div`
   grid-template-columns: 1fr 1fr 40px;
   grid-column-gap: 6px;
   margin-bottom: 20px;
+`;
 
-  span:nth-child(3) {
-    text-align: right;
-  }
+const Text = styled.span``;
+
+const Value = styled.span`
+  text-align: right;
 `;
 
 const RangeInput = ({ name, value, min, max, onInput }) => (
   <InputWrapper>
-    <span>{name}</span>
+    <Text>{name}</Text>
     <input
       type="range"
       min={min}
@@ -22,7 +24,7 @@ const RangeInput = ({ name, value, min, max, onInput }) => (
       defaultValue={value}
       onInput={onInput}
     />
-    <span>{value}</span>
+    <Value>{value}</Value>
   </InputWrapper>
 );
 
