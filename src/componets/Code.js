@@ -9,6 +9,7 @@ const CodeWrapper = styled.div`
   align-items: center;
   background-color: #ededed;
   padding: 0 15px;
+  border-radius: 4px;
 `;
 
 const Code = ({ inset, x, y, b, s, c }) => (

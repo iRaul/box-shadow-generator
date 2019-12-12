@@ -2,12 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SidePanel = styled.div`
-  position: fixed;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 300px;
+  border-radius: 4px;
   background-color: #ededed;
   padding: 40px 20px;
 `;
