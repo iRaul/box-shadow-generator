@@ -68,16 +68,16 @@ const App = () => {
         <Panel>
           <RangeInput
             name="Offset X"
-            min={-50}
-            max={50}
+            min={-70}
+            max={70}
             value={value.x}
             onInput={handleInput('x')}
           />
 
           <RangeInput
             name="Offset Y"
-            min={-50}
-            max={50}
+            min={-70}
+            max={70}
             value={value.y}
             onInput={handleInput('y')}
           />
@@ -92,8 +92,8 @@ const App = () => {
 
           <RangeInput
             name="Spread"
-            min={-50}
-            max={50}
+            min={-70}
+            max={70}
             value={value.s}
             onInput={handleInput('s')}
           />
