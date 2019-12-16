@@ -7,6 +7,7 @@ import GlobalStyle from './Global';
 import RangeInput from './Range';
 import Container from './Container';
 import BoxShadow from './BoxShadow';
+import RepoLink from './RepoLink';
 import Title from './Title';
 import Panel from './Panel';
 import Code from './Code';
@@ -58,6 +59,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
+      <RepoLink />
       <Container>
         <Main>
           <Title>Box Shadow Generator</Title>
