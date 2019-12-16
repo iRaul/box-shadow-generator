@@ -16,10 +16,10 @@ const App = () => {
   const [inset, setInset] = useState(false);
   const [colorPicker, setColorPicker] = useState(false);
   const [value, setValue] = useState({
-    x: 4, // x offset
-    y: 4, // y offset
-    b: 14, // blur
-    s: 0, // spread
+    x: 0, // x offset
+    y: 25, // y offset
+    b: 20, // blur
+    s: -20, // spread
     c: {
       // color
       r: 51,
